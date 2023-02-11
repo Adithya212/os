@@ -20,7 +20,7 @@ int main(){
         printf("%d\t\t",p[i]);
         for(j=0;j<nf;j++){
             if(frames[i]==p[i])
-                avail==1;
+                avail=1;
         }        
         if(avail==0){
             frames[k]=p[i];
